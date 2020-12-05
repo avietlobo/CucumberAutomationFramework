@@ -1,0 +1,270 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-28T17:04:49.331Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3053561000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.beforeSteps()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User searches for flights from source to destination",
+        "description": "",
+        "id": "flight-search;user-searches-for-flights-from-source-to-destination;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1656963500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6867560500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "stepDefinition.HomePageSteps.i_am_on_the_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1994900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinition.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2777576400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to hotels page",
+            "match": {
+              "location": "stepDefinition.HomePageSteps.i_navigate_to_hotels_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinition.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 569478000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search for hotels at \"Mumbai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mumbai\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.HotelsPageSteps.i_search_for_hotels_at(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinition.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14961200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I see the hotels displayed",
+            "match": {
+              "location": "stepDefinition.HotelsPageSteps.i_see_the_hotels_displayed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinition.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-28T17:05:04.363Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1791717200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.beforeSteps()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User searches for flights from source to destination 2",
+        "description": "",
+        "id": "flight-search;user-searches-for-flights-from-source-to-destination-2;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1013952200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4233446000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "stepDefinition.HomePageSteps.i_am_on_the_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinition.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2068752000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I navigate to hotels page",
+            "match": {
+              "location": "stepDefinition.HomePageSteps.i_navigate_to_hotels_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinition.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 687163200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I search for hotels at \"Pune\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pune\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.HotelsPageSteps.i_search_for_hotels_at(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinition.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16955100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I see the hotels displayed",
+            "match": {
+              "location": "stepDefinition.HotelsPageSteps.i_see_the_hotels_displayed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinition.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Flight search",
+    "description": "",
+    "id": "flight-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/functionalTests/FlightSearch.feature",
+    "tags": []
+  }
+]

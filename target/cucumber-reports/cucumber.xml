@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="25.088">
+    <testcase classname="Flight search" name="User searches for flights from source to destination" time="15.013">
+        <system-out><![CDATA[Given I am on the Home Page.................................................passed
+When I navigate to hotels page..............................................passed
+And I search for hotels at "Mumbai".........................................passed
+Then I see the hotels displayed.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Flight search" name="User searches for flights from source to destination 2" time="9.823">
+        <system-out><![CDATA[Given I am on the Home Page.................................................passed
+When I navigate to hotels page..............................................passed
+And I search for hotels at "Pune"...........................................passed
+Then I see the hotels displayed.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
